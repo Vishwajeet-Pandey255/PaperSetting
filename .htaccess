@@ -2,7 +2,7 @@
     RewriteEngine On
 
     # Set base to your folder name
-    RewriteBase /PAPER2/
+    RewriteBase /paperSetting/
 
     # If the requested file or directory exists, serve it directly
     RewriteCond %{REQUEST_FILENAME} !-f

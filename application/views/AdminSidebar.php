@@ -94,6 +94,12 @@ $(document).ready(function() {
     <a class="nav-link menu-title AssignPaperChecking" href="<?php echo base_url(); ?>Faculty/AssignPaperChecking">
         <i data-feather="check-square"></i><span>Assign Paper Checking</span>
     </a>
+
+      <li>
+    <a class="nav-link menu-title AssignPaperChecking" href="<?php echo base_url(); ?>Faculty/AssignPaperChecking">
+        <i data-feather="check-square"></i><span>Copy Checking</span>
+    </a>
+
 </li>
 
 

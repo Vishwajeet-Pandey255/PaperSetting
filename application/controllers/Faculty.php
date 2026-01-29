@@ -309,7 +309,7 @@ public function ViewPaper($id)
 
     $data['pdf_file_path'] = $paper['PaperUpload'];  // Correct column
 
-    $this->load->view('MarksAssigning', $data);
+    $this->load->view('ViewPaper', $data);
 }
 
 
