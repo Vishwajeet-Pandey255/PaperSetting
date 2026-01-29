@@ -1,0 +1,32 @@
+.profile-div{
+	 display: inline-block;
+	  width: 20%;float: right;
+	
+	
+	}
+	.profile-img{
+		
+		width: 100%;margin-left: -58px;margin-top: 41px;
+		}
+	
+@media screen and (max-width: 400px) {
+    .profile-div {
+    display: inline-block;
+    width: 63%;
+    float: right;
+    margin-bottom: 10px;
+}
+}
+
+
+h5.uk-text-a2.blocknumber.blocknumber-ltr.newone {
+    padding-top: 16px;
+}
+
+.bottom-row p1{color: #fff; margin: 0px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;text-align: justify;
+    margin-right: 16px;}
+
+p.footerset {
+    text-align: justify;
+    margin-right: 16px;
+}

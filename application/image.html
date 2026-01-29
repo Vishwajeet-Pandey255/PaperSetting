@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Section</title>
+
+    <!-- html2pdf library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <style>
+        #dashboard-section {
+            padding: 20px;
+            border: 1px solid #ccc;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="downloadPDF()">Download Section</button>
+
+<div id="dashboard-section">
+    <h2>User Dashboard</h2>
+    <p>Name: Abhishek Sen</p>
+    <p>Role: Web Developer</p>
+    <p>Status: Active</p>
+</div>
+
+<script>
+function downloadPDF() {
+    const element = document.getElementById("dashboard-section");
+
+    const options = {
+        margin: 0.5,
+        filename: 'dashboard_section.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(options).from(element).save();
+}
+</script>
+
+</body>
+</html>

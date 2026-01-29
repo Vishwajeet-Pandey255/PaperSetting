@@ -1,0 +1,12 @@
+
+
+
+
+
+@font-face {
+  font-family: 'Letter Gothic Std';
+  src: url('../fonts/LetterGothicStd-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/LetterGothicStd-Bold.otf')  format('opentype'),
+	     url('../fonts/LetterGothicStd-Bold.woff') format('woff'), url('../fonts/LetterGothicStd-Bold.ttf')  format('truetype'), url('../fonts/LetterGothicStd-Bold.svg#LetterGothicStd-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
