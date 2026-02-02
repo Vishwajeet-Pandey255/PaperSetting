@@ -313,6 +313,25 @@ public function ViewPaper($id)
 }
 
 
+// Copy checking page 
+
+ public function AssignPaper1()
+    {
+        validateToken();
+
+        if (!$this->session->userdata('faculty')) {
+            redirect(base_url('Faculty/Login'));
+            return;
+        }
+
+        $facultyId = $this->session->userdata('faculty')['id'];
+        $data['pgMod'] = "AssignPaper1";
+        $data['pgAct'] = "view";
+        $data['CheckPaper'] = $this->Faculty_model->get_Paper_By_Faculty($facultyId);
+
+        $this->load->view('AssignPaper1', $data);
+    }
+
 
 
 

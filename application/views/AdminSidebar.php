@@ -91,17 +91,22 @@ $(document).ready(function() {
                         </a>
                     </li>
                      <li>
-    <a class="nav-link menu-title AssignPaperChecking" href="<?php echo base_url(); ?>Faculty/AssignPaperChecking">
+    <!-- <a class="nav-link menu-title AssignPaperChecking" href="<?php echo base_url(); ?>Faculty/AssignPaperChecking">
         <i data-feather="check-square"></i><span>Assign Paper Checking</span>
-    </a>
+    </a> -->
 
       <li>
-    <a class="nav-link menu-title AssignPaperChecking" href="<?php echo base_url(); ?>Faculty/AssignPaperChecking">
-        <i data-feather="check-square"></i><span>Copy Checking</span>
+    <a class="nav-link menu-title AssignPaperChecking" href="<?php echo base_url(); ?>Faculty/AssignPaper1">
+        <i data-feather="check-square"></i><span>Alloted Copies for check </span>
     </a>
-
 </li>
 
+<!--                    
+      <li>
+    <a class="nav-link menu-title AssignPaperChecking" href="<?php echo base_url(); ?>Faculty/AssignPaper1">
+        <i data-feather="check-square"></i><span>View Copies List </span>
+    </a>
+</li> -->
 
                     <?php } ?>
                 </ul>
